@@ -1,0 +1,7 @@
+Los smartpointer se usan para asegurarse de que los programas están libres de memoria y de pérdidas de recursos.
+Se definen en el espacio de nombres std del archivo de memory. Son cruciales en la expresión de programación RAII.
+Su objetivo principales asegurarse de que la adquisición de recursos ocurre al mismo tiempo que se inicializa el objeto, de manera que todos los recursos del objeto se creen y se dispogan en una sola línea de código.
+
+Los punteros inteligentes están diseñados para ser lo más eficaces posible tanto en términos de memoria como de rendimiento.
+Tienen sus propias funciones miembro de restablecimiento que libera la propiedad del puntero.
+
